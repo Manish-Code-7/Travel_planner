@@ -20,6 +20,27 @@
     font-weight: 500;
 }
 
+.nav-links {
+    width: 100%;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+
+.home-link {
+    display: inline-block;
+    color: #ff5724;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.home-link:hover {
+    color: #ff3300;
+    transform: translateX(-5px);
+}
+
+
 .content-box {
     display: flex;
     justify-content: space-between;
