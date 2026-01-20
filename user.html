@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Form</title>
+  <link rel="stylesheet" href="css/userinput.css">
+</head>
+<body>
+  <header>
+    <h1 class="heading">Plan Your Trip</h1>
+  </header>
+
+  <main class="form-container">
+    <form>
+      <!-- Destination -->
+      <div class="form-group">
+        <label for="destination">Destination</label>
+        <select id="destination" name="destination">
+          <option value="manali">Manali</option>
+          <option value="goa">Goa</option>
+          <option value="delhi">Delhi</option>
+        </select>
+      </div>
+
+      <!-- Travel Date -->
+      <div class="form-group">
+        <label for="date">Travel Date</label>
+        <input type="date" id="date" name="date">
+      </div>
+
+      <!-- Number of People -->
+      <div class="form-group">
+        <label for="people">Number of People</label>
+        <input type="number" id="people" name="people" min="1" max="10">
+      </div>
+
+      <!-- Additional Notes -->
+      <div class="form-group">
+        <label for="notes">Additional Notes</label>
+        <textarea id="notes" name="notes" placeholder="Enter any additional requests..."></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <section class="packages-section">
+      <div class="package">
+        <img src="images/manali-image.jpeg" alt="Manali" />
+        <h3>Manali Package</h3>
+        <p>
+          Kullu Manali Shimla has always been a very popular destination for the old, young travelers as well as newly married couples who look for cheapest Manali tour packages & Manali honeymoon packages to experience the perfect solitude and calmness at its best.
+        </p>
+        <p>Rs 5,999 - Rs 8,999</p>
+        <button>Explore Now</button>
+      </div>
+
+      <div class="package">
+        <img src="images/goa-image.jpg" alt="Goa" />
+        <h3>Goa Package</h3>
+        <p>
+          The most popular beach of Goa, Baga, is located close to Calangute Beach, around 30 km north of Panaji. Baga is popular for its nightlife with some very famous clubs such as Brittos, Titos, and Mambos. There is also a range of water sports that you can try your hands at.
+        </p>
+        <p>Rs 7,999 - Rs 12,999</p>
+        <button>Explore Now</button>
+      </div>
+
+      <div class="package">
+        <img src="images/delhi-image.jpg" alt="Delhi" />
+        <h3>Delhi Package</h3>
+        <p>
+          Boasting cultural diversity and rich heritage, Delhi is home to several temples, tombs, gardens, forts, museums, markets, and more. We take you to some of the best spots in the city. Pick the best packages from here and enjoy the tour of Delhi with a guide.
+        </p>
+        <p>Rs 2,999 - Rs 8,999</p>
+        <button>Explore Now</button>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>

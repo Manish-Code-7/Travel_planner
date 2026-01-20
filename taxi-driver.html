@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Driver Registration</title>
+    <link rel="stylesheet" href="css/traveldriver.css">
+</head>
+<body>
+    <!-- Taxi Driver Registration Form -->
+    <div class="container">
+        <h1>Become a Taxi Driver</h1>
+        <form action="/submit-taxi-registration" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="vehicle">Vehicle Details</label>
+                <input type="text" id="vehicle" name="vehicle" placeholder="e.g., Sedan, License Plate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="location">Operating Location</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+
+            <div class="form-group">
+                <label for="languages">Languages Known</label>
+                <input type="text" id="languages" name="languages" placeholder="e.g., English, Spanish" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contact">Contact Number</label>
+                <input type="tel" id="contact" name="contact" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="availability">Availability</label>
+                <input type="text" id="availability" name="availability" placeholder="e.g., 9 AM - 6 PM" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
